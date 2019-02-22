@@ -24,7 +24,7 @@
     form{   
         width: 400px;
         height: 750px;
-        margin:250px auto;
+        margin:200px auto;
         text-align: center;
     }
     .user{
@@ -39,12 +39,17 @@
         
     }
     .wangji{
+        float: left;
         background-color: rgba(0, 175, 206)
     }
     .denglu{
         float:right;
+        display: inline-block;
         background-color: rgba(101, 255, 47)
         
+    }
+    .zhuce{
+        background-color: pink;
     }
     </style>
     <title>Document</title>
@@ -72,7 +77,10 @@
             <label>
                 <input type="button" value="忘记密码" class="button wangji">
             </label>
-            <label>
+            <!-- <label>
+                    <input type="button" value="注册" class="button zhuce">
+                </label>
+            <label> -->
                 <input type="submit" value="登录" class="button denglu">
             </label>
         </form>
